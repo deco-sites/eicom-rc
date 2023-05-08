@@ -60,9 +60,9 @@ function Header(
   return (
     <>
       <header style={{ height: headerHeight }}>
-        <div class="bg-base-100 fixed w-full z-50">
-          <Alert alerts={alerts} />
+        <div class="bg-base-100 fixed w-full z-50 text-left">
           <Navbar items={navItems} searchbar={searchbar} />
+          <Alert alerts={alerts} />
         </div>
 
         <Modals
